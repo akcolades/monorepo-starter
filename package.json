@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "test": "lerna run test",
+    "dev": "lerna run dev",
+    "diff": "lerna diff"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "name": "aks_starter_monorepo_react_nextjs_apollo_graphql_shared-ui",
+  "description": "A monorepo starter using React, NextJS, Apollo, GraphQL, and Shared UI using Styled Components",
+  "author": "akcolades",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akcolades/monorepo-starter.git"
+  }
+}
